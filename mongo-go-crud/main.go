@@ -98,7 +98,7 @@ func main() {
 	// Update a document.
 
 	// Parsing a string ID to ObjectID from MongoDB.
-	objID, err := primitive.ObjectIDFromHex("5ef7727f8f50e5a408266704")
+	objID, err := primitive.ObjectIDFromHex("5fcb95a4a7b657b6d0579569")
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -119,7 +119,7 @@ func main() {
 
 	// Delete one document.
 
-	objID, err = primitive.ObjectIDFromHex("5ef7829f4ea494fea2f5c5f9")
+	objID, err = primitive.ObjectIDFromHex("5fcb95a4a7b657b6d057956b")
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -136,7 +136,7 @@ func main() {
 	// Find documents.
 
 	// Find one document.
-	objID, err = primitive.ObjectIDFromHex("5ef7727f8f50e5a408266704")
+	objID, err = primitive.ObjectIDFromHex("5fcb95695e67cf9bab5c1519")
 	if err != nil {
 		fmt.Println(err)
 		return
